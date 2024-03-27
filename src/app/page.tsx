@@ -77,8 +77,6 @@ interface CityData {
 }
 
 
-// https://api.openweathermap.org/data/2.5/forecast?q=perth&appid=11656f3a917863a8bc87b325f6c0aaaa&ctn=56
-
 export default function Home() {  
   const [ place, setPlace ] = useAtom(placeAtom);
   const [loadingCity,  ] = useAtom(loadingCityAtom);
